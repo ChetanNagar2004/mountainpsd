@@ -1,0 +1,784 @@
+<DOCTYPE html>
+    <html>
+
+    <head>
+        <title>
+            webpage
+        </title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@600;700&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@700&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@400;700&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@400;700&display=swap');
+
+            * {
+                margin: 0px;
+                padding: 0px;
+            }
+
+            .main {
+                width: 100%;
+                height: auto;
+            }
+
+            .top-strip {
+                width: 100%;
+                height: 120px;
+                background: #f6f3f0;
+
+            }
+
+            .top-80 {
+                width: 90%;
+                height: 120px;
+                margin: auto;
+                background: #f6f3f0;
+            }
+
+            .box1 {
+                width: 15%;
+                height: auto;
+                float: left;
+            }
+
+            .box1 img {
+                width: 80%;
+                height: 90px;
+                padding-top: 10px;
+            }
+
+            .box2 {
+                width: 70%;
+                height: 120px;
+                float: left;
+            }
+
+            .menu {
+                width: 90%;
+                float: left;
+            }
+
+            .menu ul {
+                text-align: right;
+                padding-top: 50px;
+                font-weight: bold;
+                text-transform: uppercase;
+                margin-left: 50px
+            }
+
+            .menu ul li {
+                list-style: none;
+                display: inline;
+                padding-left: 20px;
+            }
+
+            .menu ul li a {
+                font-size: 20px;
+                text-decoration: none;
+                color: #54524f;
+                padding-left: 30px;
+            }
+
+            .menu ul li a:hover {
+                font-size: 20px;
+                text-decoration: none;
+                color: #09406b;
+                padding-left: 30px;
+            }
+
+            .box3 {
+                width: 10%;
+                height: 120px;
+                float: left;
+            }
+
+            .but {
+                width: 140px;
+                height: 40px;
+                text-align: right;
+                font-size: 20px;
+                margin-top: 40px;
+                background-color: #c3bfbc;
+                border-radius: 30px;
+                border: none;
+            }
+
+            .step2 {
+                width: 100%;
+                height: 700px;
+                background: #eae6e0;
+
+            }
+
+            .top80 {
+                width: 90%;
+                height: auto;
+                background: #f2efe8;
+                margin: auto;
+            }
+
+            .box5 {
+                width: 40%;
+                height: auto;
+                text-align: left;
+                float: left;
+            }
+
+            .head1 {
+                font-size: 70px;
+                text-transform: uppercase;
+                padding-top: 150px;
+                color: #deb37e;
+            }
+
+            .head2 {
+                font-size: 25px;
+                text-transform: uppercase;
+                margin-top: 10px;
+                color: #54524f;
+            }
+
+            .but2 {
+                width: 170px;
+                height: 40px;
+                font-size: 20px;
+                text-align: center;
+                margin-top: 40px;
+                color: #776c64;
+                text-transform: uppercase;
+                background: #fefefd;
+                border-radius: 30px;
+                font-weight: bold;
+                border: none;
+            }
+
+            .para {
+                font-size: 16px;
+                margin-top: 10px;
+            }
+
+            .box6 {
+                width: 60%;
+                height: auto;
+                float: left;
+                padding-top: 100px;
+            }
+
+            .box6 img {
+                width: 80%;
+                height: 500px;
+
+            }
+
+            .step3 {
+                width: 100%;
+                background: white;
+            }
+            .step82 {
+                width: 80%;
+                height: 720px;
+                margin: auto;
+            }
+            .head3 {
+                text-align: center;
+                font-size: 50px;
+                padding-top: 100px;
+                font-weight: bold;
+                font-family: 'Inter', sans-serif;
+                text-transform: uppercase;
+                color: #e2a355;
+            }
+
+            .para2 {
+                text-align: center;
+                font-size: 25px;
+                margin-top: 20px;
+                color: #7f7770;
+            }
+
+            .first {
+                width: 28%;
+                height: auto;
+                float: left;
+                margin-top: 70px;
+                text-align: left;
+                background: #7f7770;
+                margin-right: 5%;
+                padding-bottom: 40px;
+                color: white;
+            }
+
+            .first img {
+                width: 100%;
+                height: 250px;
+            }
+
+            .head4 {
+                font-size: 30px;
+                margin-top: 30px;
+                padding-left: 20px;
+            }
+
+            .para3 {
+                font-size: 25px;
+                margin-top: 10px;
+                padding-left: 20px;
+            }
+
+            .second {
+                width: 28%;
+                height: auto;
+                float: left;
+                margin-top: 70px;
+                text-align: left;
+                background: #7f7770;
+                margin-right: 5%;
+                padding-bottom: 40px;
+                color: white;
+            }
+
+            .second img {
+                width: 100%;
+                height: 250px;
+            }
+
+            .head5 {
+                font-size: 30px;
+                margin-top: 30px;
+                padding-left: 20px;
+            }
+
+            .para4 {
+                font-size: 25px;
+                margin-top: 10px;
+                padding-left: 20px;
+            }
+
+            .third {
+                width: 28%;
+                height: auto;
+                float: left;
+                margin-top: 70px;
+                text-align: left;
+                background: #7f7770;
+                padding-bottom: 40px;
+                color: white;
+            }
+
+            .third img {
+                width: 100%;
+                height: 250px;
+            }
+
+            .head6 {
+                font-size: 30px;
+                margin-top: 30px;
+                padding-left: 20px;
+            }
+
+            .para5 {
+                font-size: 25px;
+                margin-top: 10px;
+                padding-left: 20px;
+            }
+
+            .but3 {
+                width: 250px;
+                height: 60px;
+                font-size: 20px;
+                color: white;
+                background: #7f7770;
+                display: block;
+                margin: auto;
+                margin-top: 50px;
+                text-align: center;
+                border-radius: 30px;
+                border: none;
+                text-transform: uppercase;
+                font-weight: bold;
+                margin-bottom: 50px;
+            }
+
+            .step-inside {
+                width: 100%;
+                height: 1200px;
+                display: flex;
+            }
+
+            .box4 {
+                width: 50%;
+                height: auto;
+                float: left;
+                background: #deb37e;
+            }
+
+            .box4 img {
+                width: 100%;
+                height: 600px;
+            }
+
+            .head7 {
+                text-align: center;
+                font-size: 50px;
+                margin-top: 120px;
+                color: white;
+                text-transform: capitalize;
+                font-weight: bold;
+                font-family: 'Inter', sans-serif;
+            }
+
+            .para6 {
+                font-size: 30px;
+                text-align: left;
+                margin-top: 30px;
+                padding-left: 190px;
+                color: white;
+            }
+
+            .but4 {
+                width: 250px;
+                height: 60px;
+                font-size: 22px;
+                text-align: center;
+                margin-top: 40px;
+                margin-left: 190px;
+                border-radius: 20px;
+                border: none;
+                color: white;
+                text-transform: uppercase;
+                background: #e2a355;
+                margin-bottom: 100px;
+            }
+
+            .box7
+             {
+                width: 50%;
+                height: auto;
+                float: left;
+                background: #7f7770;
+            }
+
+            .head8 {
+                text-align: left;
+                padding-top: 150px;
+                font-size: 50px;
+                padding-left: 40px;
+                color: white;
+                font-weight: bold;
+            }
+
+            .para7 {
+                margin-top: 30px;
+                text-align: left;
+                font-size: 30px;
+                color: white;
+                padding-left: 40px;
+            }
+
+            .but5 {
+                width: 250px;
+                height: 60px;
+                font-size: 25px;
+                text-align: center;
+                margin-top: 50px;
+                border-radius: 30px;
+                font-weight: bold;
+                margin-left: 40px;
+                text-transform: uppercase;
+                background: #e2a355;
+                color: white;
+                border: none;
+            }
+
+            .img
+             {
+                width: 100%;
+                height: 600px;
+                margin-top: 90px;
+            }
+
+            .step5 {
+                width: 100%;
+                height: 400px;
+                background: #776c64;
+                margin-top: 120px;
+                margin-bottom: 70px;
+            }
+
+            .step84 {
+                width: 80%;
+                margin: auto;
+                height: 400px;
+                background: #776c64;
+            }
+
+            .head9 {
+                text-align: center;
+                font-size: 50px;
+                padding-top: 130px;
+                color: white;
+                font-family: 100;
+                font-family: 'Inter', sans-serif;
+
+            }
+
+            .para8 {
+                text-align: center;
+                margin-top: 30px;
+                font-size: 30px;
+                color: white;
+            }
+
+            .step6
+           {
+                width: 100%;
+                height: 400px;
+                background-color: rgb(red, green, blue);
+                margin: auto;
+                background-image: url('img/clim.jpeg');
+                background-position: center;
+                
+            }
+
+             .h2
+             {
+                width: 60%;
+                padding-top: 100px;
+                margin: auto;
+                text-align: right;
+                font-size: 60px;
+                color: #deb37e;
+                margin-top: 200px;
+            
+            }
+            .h3
+            { 
+                width: 60%;
+                padding-left: 0px;
+                margin: auto;
+                text-align: right;
+                font-size: 60px;
+                color:#54524f;
+                margin-top: 10px;
+                
+            }
+            .step-inside2
+            {
+                width: 100%;
+                height:auto;
+                display: flex;
+               
+            }
+            .step86
+            {
+                width: 80%;
+                height: 800px;
+                margin: auto;
+            }
+            .box9
+            {
+                width: 30%;
+                height: auto;
+                float: left;
+                text-align: left;
+                margin-right: 3%;
+            }
+            .head10
+            {
+                font-size: 35px;
+                padding-top: 150px;
+                color:#deb37e;
+            }
+            .para9
+            {
+                font-size: 20px;
+                margin-top: 10px;
+                color: grey;
+            }
+            .box10
+            {
+                width: 30%;
+                height: auto;
+                float: left;
+                margin-right: 3%;
+            }
+            .head10
+            {
+                font-size: 35px;
+                padding-top: 150px;
+                color: #deb37e;
+            }
+            .para9
+            {
+                font-size: 20px;
+                margin-top: 10px;
+                color: grey;
+            }
+            .box11
+            {
+                width: 32%;
+                height: auto;
+                float: left;
+            }
+            .head10
+            {
+                font-size: 35px;
+                padding-top: 150px;
+                color: #deb37e;
+            }
+            .para9
+            {
+                font-size: 20px;
+                margin-top: 10px;
+                color: grey;
+            }
+            .img2
+            {
+                width: 5%;
+                height: 30px;
+                display: block;
+                padding-top: 200px;
+                margin: auto;
+                padding-right: 70px;
+            }
+            .para10
+            {
+                width:40%;
+                font-size: 25px;
+                padding-top: 20px;
+                margin: auto;
+            }
+            .head11
+            {
+                font-size: 20px;
+                text-align: center;
+                padding-top: 50px;
+                padding-right: 30px;
+            }
+            .step7
+            {
+                width: 100%;
+                height: 500px;
+                background: #deb37e ;
+            }
+            .step87
+            {
+                width: 80%;
+                height: 500px;
+                margin: auto;
+                background: #deb37e;
+            }
+            .head13
+            {
+                text-align: center;
+                font-size: 50px;
+                padding-top: 90px;
+                font-family: 100;
+                color: white;
+                font-family: 'Inter', sans-serif;
+
+            }
+            .para12
+            {
+                width: 50%;
+                font-size: 25px;
+                padding-top: 70px;
+                margin: auto;
+                color: #54524f;
+            }
+            .search
+            {
+                width:100%;
+                height: 130px;
+            }
+            .search input
+            {
+                width:250px;
+                height:40px;
+                font-size: 20px;
+                margin-top: 100px;
+                text-align: left;
+                margin-left:300px ;
+                border: none;
+                padding-left: 15px;
+                border-radius: 30px;
+            }
+            .search input:focus-visible
+            {
+                width: 250px;
+                height: 40px;
+                font-size: 20px;
+                margin-top:100px;
+                padding-left: 20px;
+                border: none;
+                outline: none;
+            }
+            .search button
+            {
+                width: 150px;
+                height: 40px;
+                font-size: 20px;
+                margin-top: 100px;
+                border: none;
+                color: white;
+                border-radius: 20px;
+                background: #54524f;
+                margin-right: 70px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="main">
+            <div class="top-strip">
+                <div class="top-80">
+                    <div class="box1">
+                        <img src="img/psdlogo.png" />
+                    </div>
+
+                    <div class="box2">
+                        <div class="menu">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Menu</a></li>
+                                <li><a href="#">our story</a></li>
+                                <li><a href="#">contact us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="box3">
+                        <button class="but"></button>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="step2">
+                <div class="top80">
+                    <div class="box5">
+                        <h4 class="head1">
+                            it's time <br>for hiking
+                        </h4>
+                        <h4 class="head2"><i>
+                                loremlpsum dolor
+                            </i> </h4>
+                        <button class="but2">
+                            read more
+                        </button>
+                        <p class="para">In publishing and graphic design, Lorem ipsum is a placeholder<br> text commonly
+                            used to demonstrate the visual form of a document<br> or a typeface without relying on
+                            meaningful content.</p>
+                    </div>
+
+                    <div class="box6">
+                        <img src="img/girl.jpg" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="step3">
+                <div class="step82">
+                    <h3 class="head3">
+                        <b>let's go </b>
+                    </h3>
+                    <p class="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quo officia<br>
+                        reiciendis expedita ipsam eveniet veritatis eligendi mollitia libero error?</p>
+                    <div class="first">
+                        <img src="img/girl2.png">
+                        <h3 class="head4">Lorem, ipsum </h3>
+                        <p class="para3">Lorem ipsum dolor sit amet consectetur adipisicing...</p>
+                    </div>
+                    <div class="second">
+                        <img src="img/girls3.png" />
+                        <h3 class="head5">Lorem, ipsum </h3>
+                        <p class="para4">Lorem ipsum dolor sit amet consectetur adipisicing...</p>
+                    </div>
+                    <div class="third">
+                        <img src="img/girls4.png" />
+                        <h3 class="head6">Lorem, ipsum </h3>
+                        <p class="para5">Lorem ipsum dolor sit amet consectetur adipisicing...</p>
+                    </div>
+                </div>
+                <button class="but3">show more</button>
+            </div>
+            <div class="step-inside">
+                <div class="box4">
+                    <img src="img/girls3.png" />
+                    <h3 class="head7">January promo;<br>Buy 1 get1 free!</h3>
+                    <p class="para6">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Culpa earum,<br> hic
+                        doloribus aspernatur eum omnis!</p>
+                    <button class="but4">read more</button>
+
+                </div>
+                <div class="box7">
+                    <h4 class="head8">Discount up to <br>50% All Exercusions</h4>
+                    <p class="para7">Lorem ipsum dolor sit amet<br> consectetur adipisicing elit. Vel omnis <br>voluptas
+                        harum, excepturi dolorem veritatis.</p>
+                    <button class="but5">read more</button>
+                    <img src="img/boys.png" class="img" />
+                </div>
+
+            </div>
+
+            <div class="step5">
+                <div class="top-84">
+                    <h4 class="head9">Hiking in the mountains</h4>
+                    <p class="para8">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis laboriosam<br>
+                        dolorum, doloremque facere maiores animi quae. Accusantium doloremque <br>eligendi officia
+                        dignissimos voluptates magni nostrum neque.</p>
+
+                </div>
+            </div>
+
+            <div class="step6">
+                <h4 class="h2">Explore.</h4>
+                <h3 class="h3">The world</h3>
+
+            </div>
+
+            <div class="step-inside2">
+                <div class="step86">
+                    <div class="box9">
+                        <h3 class="head10">Lorem ipsum </h3>
+                        <p class="para9">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil ea fugit autem odit voluptatibus explicabo!</p>
+                    </div>
+                    <div class="box10">
+                        <h3 class="head10">Lorem ipsum </h3>
+                        <p class="para9">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil ea fugit autem odit voluptatibus explicabo!</p>
+                    </div>
+                    <div class="box11">
+                        <h3 class="head10">Lorem ipsum </h3>
+                        <p class="para9">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil ea fugit autem odit voluptatibus explicabo!</p>
+                    </div>
+                    
+                        <img src="img/logo2.png"/ class="img2"/>
+                    
+                       <p class="para10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde iure aspernatur eaque est alias ea obcaecati ut? Sapiente, cumque amet!
+
+                       </p> 
+                       <h3 class="head11">Lorem ipsum</h3>
+                </div>
+                </div>
+            
+                <div class="step7">
+                    <div class="step87">
+                        <h4 class="head13">Title Here</h4>
+                        <p class="para12">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non ducimus aut similique sit ullam? Dolore magnam eum laudantium delectus libero.</p>
+
+                        <div class="search">
+                            <input type="text" placeholder="Your Email...">
+                            <button class="but8"> SUBSCRIBE</button>
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+        </div>
+    </body>
+
+    </html>
